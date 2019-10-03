@@ -5,7 +5,7 @@ public class AI {
     private int difficulty;
 
     public AI(int difficulty) {
-        this.difficulty = difficulty;
+        this.difficulty = difficulty; //choose difficulty level
     }
 
     public void doTurn(ChessPiece[][] boardArray) {
